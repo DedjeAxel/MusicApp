@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:background="@drawable/bg1">
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:itemTextColor="@color/ic"
+        app:itemIconTint="@color/ic"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg"
+        android:id="@+id/navbar"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/bg"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/homenav"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/playnav"
+
+                />
+        </LinearLayout>
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10">
+
+            <?xml version="1.0" encoding="utf-8"?>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Fally"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="100"
+    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m02s"
+android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Dadju"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Amour Toxic"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m58s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Ninho"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Poto"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m11s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Jungeli"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Bijou"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="2m05s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Gims"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Spider"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m08s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="50"
+                    android:layout_height="50"
+                    android:layout_marginStart="175dp"
+                    android:layout_marginTop="-429dp"
+                    android:orientation="horizontal"></LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Keblack"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Aucune attache"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="2m42s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Fally"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Lady D"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="6m40s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Fally"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Mayday"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="7m19s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Fally"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Formule 7"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="8m06s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/play3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Dadju"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Apprend moi"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="4m01s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@mipmap/ic_launcher_round"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Niska"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Genkidama"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m32s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@mipmap/ic_launcher_round"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Dadju"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="King"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m49s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@mipmap/ic_launcher_round"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Ninho"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Jefe"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="2m57s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/song">
+
+                <ImageView
+                    android:id="@+id/albumImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@mipmap/ic_launcher_round"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="22dp"
+                    android:text="Franglish"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="Position"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/albumImageView"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toEndOf="@id/albumImageView"
+                    android:text="3m12s"
+                    android:textColor="@color/green"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

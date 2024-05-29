@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/bgplay">
+
+    <!-- Song Name TextView -->
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:menu="@menu/activity_main_drawer"-->
+<!--        app:itemTextColor="@color/ic"-->
+<!--        app:itemIconTint="@color/ic"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@color/bgplay"-->
+<!--        android:id="@+id/navbar"-->
+<!--        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bgplay"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/playnav"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/songNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="218dp"
+        android:textColor="@color/white"
+        android:textSize="20"/>
+
+    <!-- Album Image -->
+    <ImageView
+        android:id="@+id/albumImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/songNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/play3"
+        />
+
+    <!-- Play Button -->
+
+
+    <ImageView
+    android:id="@+id/play"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/play" />
+
+    <!-- Next Button -->
+
+
+    <!-- Previous Button -->
+
+    <!-- Navigation Bar -->
+
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play"
+        android:layout_alignTop="@+id/navbar"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="-110dp"
+        android:layout_marginEnd="45dp"
+        android:progress="50"
+        android:progressBackgroundTint="@color/black"
+        android:progressTint="#6E39CC"
+        android:thumbTint="@color/green" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="218dp"
+        android:background="@drawable/next"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="221dp"
+        android:background="@drawable/previous" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="171dp"
+        android:text="2:33"
+        android:textColor="@color/green" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/albumImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/albumImageView"
+        android:layout_marginStart="22dp"
+        android:text="Artist"
+        android:layout_toEndOf="@id/albumImageView"
+        android:textSize="18dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/albumImageView"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@id/albumImageView"
+        android:text="Song name"
+
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/albumImageView"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@id/albumImageView"
+        android:text="2m32s"
+
+        android:textSize="18dp" />
+
+</RelativeLayout>
